@@ -1,0 +1,37 @@
+.chat-room-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.messages-container {
+  height: 75vh;
+  overflow: auto;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+.message-item {
+  max-width: 55%;
+  padding: 12px 8px;
+  word-break: break-word;
+  border-radius: 4px;
+}
+
+.my-message {
+  background-color: #66bb6a;
+  margin-left: auto;
+  text-align: right;
+}
+
+.received-message {
+  background-color: #e8f5e9;
+  margin-right: auto;
+}
+
+.message-input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
